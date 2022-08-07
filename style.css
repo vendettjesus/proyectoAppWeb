@@ -1,0 +1,189 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*SHARE*/
+
+.bg-gradient{
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+section{
+    position: relative;
+    overflow: hidden;
+}
+
+.grid{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.wrapper{
+    position: relative;
+}
+
+.img-container{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    min-height: 280px;
+    background-position: center center;
+}
+
+.btn-basic{
+    margin: 10px 0px;
+    background: paleturquoise;
+    border-radius: 50px;
+    border: none;
+    color: black;
+    padding: 20px 70px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: .5s all ease;
+}
+
+.btn-basic:hover{
+    background-color: aquamarine;
+}
+
+/*?HEADER*/
+
+
+.img-logo{
+    width: 80px;
+}
+
+
+/*? SECTION FIRST */
+
+.mi-foto{
+    width: 90px;
+    border-radius: 60px;
+}
+.section-first{
+    padding-top: 40px;
+}
+
+.curtain{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    z-index: 0;
+    transform: skewY(-3deg);
+    transform-origin: top left;
+}
+
+.wrapper-first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-container{
+    color: #fff;
+    text-align: center;
+}
+
+.sub-heading{
+    margin: 10px 0px;
+}
+
+.img-container-one{
+    background-image: url(img/nurse.png)
+}
+
+/*? SECTION SECOND*/
+.wrapper-second{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons-section-second{
+    width: 70px;
+}
+
+/*? SECTION THIRD*/
+.section-third{
+    margin-top: 75px;
+}
+
+.curtain-reverse{
+    height: 100%;
+    transform: skewY(5deg);
+    transform-origin: top left;
+}
+
+.img-container-two{
+    background-image: url(img/section-second/paramedica.png);
+}
+
+.text-container-two{
+    color: #fff;
+    text-align: center;
+}
+
+/*? SECTION FOURTH*/
+.section-fourth{
+    padding: 75px 0px;
+}
+
+/*? SECTION FIFTH, SIXTH, SEVENTH*/
+
+.favoritas-container p{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-fifth, .section-sixth, .section-seventh{
+    margin: 50px 0px;
+}
+.img-logo2{
+    width: 75px;
+}
+
+.box{
+    text-align: center;
+    margin: 10px;
+    padding: 40px;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 1);
+    border-radius: 25px;
+    width: auto;
+}
+
+/*? SECTION EIGHTH*/
+
+
+.correoText{
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.wrapper-eighth{
+    text-align: center;
+}
+
+/*?SECTION NINTH*/
+
+.icons-section-ninth{
+    width: 45px;
+}
+
